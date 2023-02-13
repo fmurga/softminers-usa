@@ -124,7 +124,7 @@ span {
   /* identical to box height, or 100% */
 
   letter-spacing: -2px;
-  color: #0060A2;
+  color: #0060a2;
   margin: 0 0 20px 0;
 }
 
@@ -138,7 +138,7 @@ span {
   letter-spacing: 0.025em;
   text-transform: uppercase;
 
-  color: #0060A2;
+  color: #0060a2;
 
   margin: 0;
 }
@@ -169,7 +169,7 @@ span {
 
   text-align: center;
 
-  color: #0060A2;
+  color: #0060a2;
 }
 
 .diferentials .diferentials-info .diferentials-text {
@@ -195,13 +195,13 @@ span {
 }
 
 .card-image {
-    height: 100%;
-    width: 150px;
+  height: 100%;
+  width: 150px;
 }
 
 .card-image img {
-    height: 100%;
-    width: 150px;
+  height: 100%;
+  width: 150px;
 }
 
 .card-content {
@@ -217,51 +217,79 @@ span {
   line-height: 24px;
   /* identical to box height, or 100% */
 
-  color: #0060A2;
+  color: #0060a2;
 }
 
 .map {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .map-box {
-    width: 55%;
+  width: 55%;
 }
 
 .map-info {
-    background-color: #0060A2;
-    margin-left: -45px;
-    width: 45%;
-    padding: 46px 32px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    color: #ffffff;
-    border-radius: 15px;
+  background-color: #0060a2;
+  margin-left: -45px;
+  width: 45%;
+  padding: 46px 32px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #ffffff;
+  border-radius: 15px;
 }
 
 .map-title {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 40px;
-    /* identical to box height, or 111% */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .map-subtitle {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .map-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.clients-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+  max-width: 70%;
+  margin: 0 auto 48px auto;
+}
+
+.clients-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+
+  color: #0060a2;
+}
+
+.clients-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #0060a2;
 }
