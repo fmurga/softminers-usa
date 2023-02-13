@@ -5,6 +5,17 @@ document.addEventListener( 'DOMContentLoaded', function() {
         rewindByDrag: true,
         autoplay: true,
         perPage: 10,
+        breakpoints: {
+            992: {
+                perPage: 6,
+            },
+            640: {
+                perPage: 4,
+            },
+            370: {
+                perPage: 3,
+            },
+        },
         start: 1,
         arrows: false,
         loop: true,
