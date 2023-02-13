@@ -219,3 +219,49 @@ span {
 
   color: #0060A2;
 }
+
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-box {
+    width: 55%;
+}
+
+.map-info {
+    background-color: #0060A2;
+    margin-left: -45px;
+    width: 45%;
+    padding: 46px 32px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.map-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+}
+
+.map-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.map-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
