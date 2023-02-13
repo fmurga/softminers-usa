@@ -52,6 +52,7 @@ span {
   padding: 0 150px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .navbar .navigation {
@@ -265,7 +266,7 @@ span {
   line-height: 150%;
 }
 
-.clients-info {
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,7 +277,7 @@ span {
   margin: 0 auto 48px auto;
 }
 
-.clients-title {
+.title {
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -285,11 +286,69 @@ span {
   color: #0060a2;
 }
 
-.clients-text {
+.text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
 
   color: #0060a2;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.services-card {
+    margin: 0 auto;
+    width: 406px;
+}
+
+.services-card img {
+    width: 406px;
+    height: 256px;
+    border-radius: 6px;
+}
+
+.services-info{
+    width: 70%;
+    margin: -70px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 24px;
+    gap: 12px;
+    border-radius: 6px;
+    background: #0060a2;
+    z-index: 1;
+    position: relative;
+}
+
+.services-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #fff;
+}
+
+.services-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    
+    text-align: center;
+    
+    color: #fff;
 }
