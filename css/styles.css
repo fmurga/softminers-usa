@@ -339,6 +339,10 @@ span {
   color: #0060a2;
 }
 
+#services-carousel {
+  display: none;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -404,13 +408,20 @@ span {
   }
 
   .services-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
   }
 }
 
 @media (max-width: 640px) {
+
+    #services-carousel {
+      display: block;
+    }
+
+    .services-grid {
+      display: none;
+    }
 
     #box {
         width: 0;
@@ -464,24 +475,18 @@ span {
     grid-template-columns: 1fr;
   }
 
-  .services-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
   .services-card {
     max-width: 350px;
   }
 
-  .services-card img {
+  .splide .services-card img {
     width: auto;
     height: 230px;
   }
 
   .services-info {
-    width: 50%;
-    margin: -70px auto 0 60px;
+    width: 80%;
+    margin: -95px auto 0 12px;
   }
   .container {
     padding: 50px 15px;

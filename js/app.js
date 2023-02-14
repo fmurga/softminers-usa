@@ -8,7 +8,7 @@ const setActiveClass = (event) => {
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-    const splide = new Splide('.splide', {
+    const splide = new Splide('#clients', {
         rewind: true,
         rewindSpeed: 1000,
         rewindByDrag: true,
@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 perPage: 6,
             },
             640: {
-                perPage: 4,
+                perPage: 2,
             },
             370: {
-                perPage: 3,
+                perPage: 2,
             },
         },
         start: 1,
@@ -30,6 +30,20 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
     });
     splide.mount();
+
+    const splide1 = new Splide('#services-carousel', {
+        rewind: true,
+        rewindSpeed: 1000,
+        rewindByDrag: true,
+        autoplay: true,
+        perPage: 1,
+        start: 1,
+        arrows: false,
+        loop: true,
+        padding: '10px',
+        gap: 10,
+    });
+    splide1.mount();
 
     const links = document.querySelectorAll(".nav-item-link");
     links.forEach((link) => {
