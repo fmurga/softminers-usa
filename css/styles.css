@@ -46,7 +46,7 @@ span {
   display: flex;
   flex-direction: row;
   height: 90px;
-  background-color: #0060a2;
+  background-color: #005DFE;
   align-items: center;
   justify-content: space-between;
   padding: 0 150px;
@@ -65,7 +65,7 @@ span {
 }
 
 .navbar .navigation .nav-item .nav-item-link {
-  background-color: #0060a2;
+  background-color: #005DFE;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +99,7 @@ span {
 
 .box:after {
   content: " ";
-  border-top: 60vh solid #0060a2;
+  border-top: 60vh solid #005DFE;
   border-right: 100vw solid transparent;
   width: 0;
   position: absolute;
@@ -146,7 +146,7 @@ span {
   /* identical to box height, or 100% */
 
   letter-spacing: -2px;
-  /* color: #0060a2; */
+  /* color: #005DFE; */
   color: #fff;
 
   margin: 0 0 20px 0;
@@ -176,8 +176,8 @@ span {
   letter-spacing: 0.025em;
   text-transform: uppercase;
 
-  /* color: #0060a2; */
-  color: #0060a2;
+  /* color: #005DFE; */
+  color: #005DFE;
 
   margin: 0;
 }
@@ -214,7 +214,7 @@ span {
 
   text-align: center;
 
-  color: #0060a2;
+  color: #005DFE;
 }
 
 .diferentials .diferentials-info .diferentials-text {
@@ -262,7 +262,7 @@ span {
   line-height: 24px;
   /* identical to box height, or 100% */
 
-  color: #0060a2;
+  color: #005DFE;
 }
 
 .map {
@@ -277,7 +277,7 @@ span {
 }
 
 .map-info {
-  background-color: #0060a2;
+  background-color: #005DFE;
   margin-left: -45px;
   width: 45%;
   padding: 46px 32px;
@@ -327,7 +327,7 @@ span {
   font-size: 36px;
   line-height: 36px;
 
-  color: #0060a2;
+  color: #005DFE;
 }
 
 .text {
@@ -336,7 +336,7 @@ span {
   font-size: 16px;
   line-height: 150%;
 
-  color: #0060a2;
+  color: #005DFE;
 }
 
 #services-carousel {
@@ -372,7 +372,7 @@ span {
   padding: 24px;
   gap: 12px;
   border-radius: 6px;
-  background: #0060a2;
+  background: #005DFE;
   z-index: 1;
   position: relative;
 }
@@ -444,18 +444,18 @@ span {
   }
 
   .hero-title {
-    color: #0060a2;
+    color: #005DFE;
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
   }
 
   .hero-subtitle {
-    color: #0060a2;
+    color: #005DFE;
   }
 
   .hero-text {
-    color: #0060a2;
+    color: #005DFE;
     text-align: justify;
   }
 
