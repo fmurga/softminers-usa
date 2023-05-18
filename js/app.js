@@ -1,6 +1,6 @@
 
 const setActiveClass = (event) => {
-    const links = document.querySelectorAll(".nav-item-link");
+    const links = document.querySelectorAll("#navigation .nav-item .nav-link");
     links.forEach((link) => {
         link.classList.remove("active");
     });
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     splide.mount();
 
-    const splide1 = new Splide('#services-carousel', {
+    const splideServices = new Splide('#services-carousel', {
         rewind: true,
         rewindSpeed: 1000,
         rewindByDrag: true,
@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
         padding: '10px',
         gap: 10,
     });
-    splide1.mount();
+    splideServices.mount();
 
-    const links = document.querySelectorAll(".nav-item-link");
+    const links = document.querySelectorAll("#navigation .nav-item .nav-link");
     links.forEach((link) => {
         link.addEventListener("click", (e) => {
             e.preventDefault()
@@ -56,15 +56,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.getElementById("navigation");
 
     container.addEventListener("click", (event) => {
-      if (event.target.classList.contains("nav-item-link")) {
-        event.preventDefault();
-        const originalUrl = event.target.href;
-        const fragmentIdentifier = originalUrl.split('#')[1];
-        const section = document.getElementById(fragmentIdentifier);
-    
-        if (section) {
-          section.scrollIntoView({ behavior: 'smooth' });
+        if (event.target.classList.contains("nav-link")) {
+            event.preventDefault();
+            const originalUrl = event.target.href;
+            const fragmentIdentifier = originalUrl.split('#')[1];
+            const section = document.getElementById(fragmentIdentifier);
+
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
         }
-      }
     });
 });
