@@ -1,7 +1,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/softmine/public_html/usa
-    - /bin/cp /assets $DEPLOYPATH
-    - /bin/cp /components $DEPLOYPATH
-    - /bin/cp /css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R components $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp index-php $DEPLOYPATH
