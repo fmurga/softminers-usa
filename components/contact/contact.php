@@ -16,8 +16,7 @@
         <div class="col-lg-12 col-md-12 col-xs-12">
             <form id="contactForm" action="../campaigns/php/form-process.php" method="post">
                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-                <input type="hidden" name="campaign" id="campaign" placeholder="SAP HANA IBM"
-                    defaultValue="SAP HANA IBM" value="SAP HANA IBM">
+                <input type="hidden" name="campaign" id="campaign" placeholder="usa" defaultValue="usa" value="usa">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
