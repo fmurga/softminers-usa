@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Eighth navbar example">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top" aria-label="Eighth navbar example">
+    <div class="container-fluid bg-blue">
         <a class="navbar-brand" href="/usa/">
             <img src="./assets/logos/logo-light.png" alt="Logo SoftMiners">
         </a>
