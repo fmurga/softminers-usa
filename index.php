@@ -8,6 +8,9 @@
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
 
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="../assets/images/favicon/favicon.png" type="image/png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="
@@ -34,32 +37,44 @@
         <section id="hero" class="hero bg-blue">
             <div class="hover_color_bubble"></div>
             <div class="container">
-                <div class="hero-info-container">
-                    <div class="hero-content">
-                        <h1 class="hero-title">SoftMiners</h1>
-                        <h3 class="hero-title">make it happen</h3>
-                        <p class="hero-text">The process of digital transformation poses significant daily obstacles
-                            that
-                            must be tackled with agility, efficiency, and scalability. It is crucial to recognize that
-                            this
-                            process is in a perpetual state of flux and evolution.</p>
-                    </div>
-                    <div class="hero-icons-container">
-                        <p class="hero-subtitle">Bussines Partners</p>
-                        <div class="hero-icons">
-                            <!-- <i class="fa-brands fa-facebook"></i> -->
-                            <a href=""><img width="123px" src="./assets/logos/ibm.gif" alt="IBM Partner"></a>
-                            <!-- <i class="fa-brands fa-linkedin"></i> -->
-                            <a href=""><img width="123px" src="./assets/logos/softexpert.png" alt="SoftExpert"></a>
-                            <!-- <i class="fa-brands fa-youtube"></i> -->
-                            <a href=""><img width="123px" src="./assets/logos/sap partner.png"
-                                    alt="SAP Partner Open Ecosystem"></a>
-                            <!-- <i class="fa-brands fa-youtube"></i> -->
-                            <a href=""><img width="123px" src="./assets/logos/softland.webp" alt="Softland"></a>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hero-info-container">
+                            <div class="hero-content">
+                                <h1 class="hero-title">SoftMiners</h1>
+                                <h3 class="hero-title">make it happen</h3>
+                                <p class="hero-text">The process of digital transformation poses significant daily
+                                    obstacles
+                                    that
+                                    must be tackled with agility, efficiency, and scalability. It is crucial to
+                                    recognize
+                                    that
+                                    this
+                                    process is in a perpetual state of flux and evolution.</p>
+                            </div>
+                            <div class="hero-icons-container">
+                                <p class="hero-subtitle">Bussines Partners</p>
+                                <div class="hero-icons">
+                                    <!-- <i class="fa-brands fa-facebook"></i> -->
+                                    <a href=""><img width="123px" src="./assets/logos/ibm.gif" alt="IBM Partner"></a>
+                                    <!-- <i class="fa-brands fa-linkedin"></i> -->
+                                    <a href=""><img width="123px" src="./assets/logos/softexpert.png"
+                                            alt="SoftExpert"></a>
+                                    <!-- <i class="fa-brands fa-youtube"></i> -->
+                                    <a href=""><img width="123px" src="./assets/logos/sap partner.png"
+                                            alt="SAP Partner Open Ecosystem"></a>
+                                    <!-- <i class="fa-brands fa-youtube"></i> -->
+                                    <a href=""><img width="123px" src="./assets/logos/softland.webp" alt="Softland"></a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <?php include "./components/contact/contact.php"?>
                     </div>
                 </div>
             </div>
+
         </section>
         <section id="services" class="container-custom services">
             <div class="services info">
@@ -311,12 +326,36 @@
         </section>
     </main>
     <?php include "./components/footer.php" ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
-    <script src="
+    <script async src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
     "></script>
+    <script src='https://www.google.com/recaptcha/api.js?render=6Lfue6YZAAAAAEsvOi6e6yfj_MqKV0_77wEcREZK'>
+    </script>
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lfue6YZAAAAAEsvOi6e6yfj_MqKV0_77wEcREZK', {
+            action: 'submit'
+        }).then(function(token) {
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+            recaptchaResponse.value = token;
+        });
+    });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F350NNR72Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-F350NNR72Q');
+    </script>
     <script src="./js/app.js" type="text/javascript"></script>
 </body>
 

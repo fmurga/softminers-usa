@@ -618,3 +618,49 @@ h1.hero-title {
     flex: auto;
   }
 }
+
+/* ==========================================================================
+   Contact index2 version section
+   ========================================================================== */
+#contact2 {
+  background: #f2f4f8;
+}
+
+form#contactForm .form-group {
+  margin-bottom: 30px;
+}
+
+form#contactForm input[type=text],
+form#contactForm input[type=email] {
+  min-height: 52px;
+  padding: 0px 0 0 28px;
+  font-size: 16px;
+  color: #5e629c;
+}
+
+form#contactForm textarea {
+  padding: 15px 0 0 28px;
+  font-size: 16px;
+  color: #5e629c;
+}
+
+form#contactForm .form-control:focus {
+  border: 1px solid #000000;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #ffe2db;
+}
+
+.submit-button .btn-common {
+  cursor: pointer;
+  background-color: #000000;
+  height: 45px;
+  /* padding: 12px 40px; */
+  width: 50%;
+  color: #fff;
+}
+
+.submit-button .btn-common:hover {
+  background-color: #309df0;
+}
