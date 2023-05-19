@@ -35,7 +35,7 @@
     </header>
     <main style="margin-top: 90px;">
         <section id="hero" class="hero bg-blue">
-            <div class="hover_color_bubble"></div>
+            <!-- <div class="hover_color_bubble"></div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -56,15 +56,17 @@
                                 <p class="hero-subtitle">Bussines Partners</p>
                                 <div class="hero-icons">
                                     <!-- <i class="fa-brands fa-facebook"></i> -->
-                                    <a href=""><img width="123px" src="./assets/logos/ibm.gif" alt="IBM Partner"></a>
+                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/ibm.gif"
+                                            alt="IBM Partner"></a>
                                     <!-- <i class="fa-brands fa-linkedin"></i> -->
-                                    <a href=""><img width="123px" src="./assets/logos/softexpert.png"
+                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/softexpert.png"
                                             alt="SoftExpert"></a>
                                     <!-- <i class="fa-brands fa-youtube"></i> -->
-                                    <a href=""><img width="123px" src="./assets/logos/sap partner.png"
+                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/sap partner.png"
                                             alt="SAP Partner Open Ecosystem"></a>
                                     <!-- <i class="fa-brands fa-youtube"></i> -->
-                                    <a href=""><img width="123px" src="./assets/logos/softland.webp" alt="Softland"></a>
+                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/softland.webp"
+                                            alt="Softland"></a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +92,8 @@
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Business Process Automation</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -100,7 +103,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">SAP consulting</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -110,7 +114,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Cloud</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -120,7 +125,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Infraestrcture</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -130,7 +136,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Business Solutions</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -140,7 +147,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Heading</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -151,7 +159,8 @@
                         </li>
                         <li class="splide__slide">
                             <div class="services-card">
-                                <img width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
+                                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg"
+                                    alt="Service 1">
                                 <div class="services-info">
                                     <h3 class="services-title">Heading</h3>
                                     <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -176,7 +185,8 @@
                 <div class="row">
                     <div class="col-12 col-md-5 offset-md-7 map-info">
                         <div class="col-12 mobile-map hide-on-med-and-up">
-                            <img src="./assets/img/worldmap-mob.png" alt="World map mobile" width="100%" height="100%">
+                            <img loading="lazy" src="./assets/img/worldmap-mob.png" alt="World map mobile" width="100%"
+                                height="100%">
                         </div>
                         <p class="map-subtitle">We innovate for companies in Latin America, the United States and Spain.
                         </p>
@@ -222,100 +232,110 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo01.png" alt="Logo Aguas Cordobesas" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo01.png"
+                                alt="Logo Aguas Cordobesas" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo02.png" alt="Logo Allus" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo02.png" alt="Logo Allus" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo03.png" alt="Logo Arauco" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo03.png" alt="Logo Arauco" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo04.jpg" alt="Logo Bancor" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo04.jpg" alt="Logo Bancor" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo05.png" alt="Logo cargo" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo05.png" alt="Logo cargo" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo06.png" alt="Logo Cerro Vanguardia" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo06.png"
+                                alt="Logo Cerro Vanguardia" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo07.png" alt="Logo Correo argentino" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo07.png"
+                                alt="Logo Correo argentino" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo08.png" alt="Logo Coca cola Andina" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo08.png"
+                                alt="Logo Coca cola Andina" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo09.png" alt="Logo Fono Bus" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo09.png" alt="Logo Fono Bus" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo10.gif" alt="Logo Gema Biotech" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo10.gif"
+                                alt="Logo Gema Biotech" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo11.jpg" alt="Logo Gestamp" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo11.jpg" alt="Logo Gestamp" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo12.png" alt="Logo Holcim" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo12.png" alt="Logo Holcim" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo13.png" alt="Logo IPH" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo13.png" alt="Logo IPH" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo14.png" alt="Logo Jhon M Phillips" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo14.png"
+                                alt="Logo Jhon M Phillips" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo15.png" alt="Logo Konecta" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo15.png" alt="Logo Konecta" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo16.png" alt="Logo LDC" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo16.png" alt="Logo LDC" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo17.png" alt="Logo Lheritier" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo17.png" alt="Logo Lheritier" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo18.jpg" alt="Logo Libertad" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo18.jpg" alt="Logo Libertad" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo19.png" alt="Logo Loma Negra" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo19.png" alt="Logo Loma Negra" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo20.jpg" alt="Logo Microvqz" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo20.jpg" alt="Logo Microvqz" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo21.jpg" alt="Logo NCA" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo21.jpg" alt="Logo NCA" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo22.jpg" alt="Logo ParexKlaucol" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo22.jpg"
+                                alt="Logo ParexKlaucol" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo23.png" alt="Logo Pernod Ricard" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo23.png"
+                                alt="Logo Pernod Ricard" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo24.jpg" alt="Logo Quickfood" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo24.jpg" alt="Logo Quickfood" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo25.jpg" alt="Logo Reydel Automotive" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo25.jpg"
+                                alt="Logo Reydel Automotive" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo26.jpg" alt="Logo Arca continental" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo26.jpg"
+                                alt="Logo Arca continental" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo27.png" alt="Logo ScJohnson" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo27.png" alt="Logo ScJohnson" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo28.jpg" alt="Logo Scania" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo28.jpg" alt="Logo Scania" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo29.jpg" alt="Logo U Siglo 21" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo29.jpg" alt="Logo U Siglo 21" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo30.png" alt="Logo SoftExpert" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo30.png" alt="Logo SoftExpert" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo31.png" alt="Logo Weg" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo31.png" alt="Logo Weg" />
                         </li>
                         <li class="splide__slide">
-                            <img width="110px" src="./assets/clients/logo32.jpg" alt="Logo Zelteck" />
+                            <img loading="lazy" width="110px" src="./assets/clients/logo32.jpg" alt="Logo Zelteck" />
                         </li>
                     </ul>
                 </div>
