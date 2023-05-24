@@ -52,23 +52,6 @@
                                     this
                                     process is in a perpetual state of flux and evolution.</p>
                             </div>
-                            <div class="hero-icons-container">
-                                <p class="hero-subtitle">Bussines Partners</p>
-                                <div class="hero-icons">
-                                    <!-- <i class="fa-brands fa-facebook"></i> -->
-                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/ibm.gif"
-                                            alt="IBM Partner"></a>
-                                    <!-- <i class="fa-brands fa-linkedin"></i> -->
-                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/softexpert.png"
-                                            alt="SoftExpert"></a>
-                                    <!-- <i class="fa-brands fa-youtube"></i> -->
-                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/sap partner.png"
-                                            alt="SAP Partner Open Ecosystem"></a>
-                                    <!-- <i class="fa-brands fa-youtube"></i> -->
-                                    <a href=""><img loading="lazy" width="123px" src="./assets/logos/softland.webp"
-                                            alt="Softland"></a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-end">
@@ -78,6 +61,39 @@
             </div>
 
         </section>
+
+<section id="partners" class="m-auto py-5 bg-gray splide skyblue" aria-labelledby="carousel-heading">
+            <div class="container">
+                <div class="clients info">
+                    <h3 class="clients title">Partners</h3>
+                    <p class="clients text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+                        cupiditate, atque
+                        culpa eligendi, molestias ut placeat fuga iusto odio quos mollitia maiores! Dolores rem porro
+                        suscipit
+                        maiores, id autem enim.</p>
+                </div>
+                <div>
+                       
+                            <img loading="lazy" width="110px" src="./assets/logos/ibm.gif" alt="Logo IBM" />
+                        
+                            
+                       
+                            <img loading="lazy" width="110px" src="./assets/logos/softexpert.png" alt="Logo SoftExpert" />
+                        
+                            
+                       
+                            <img loading="lazy" width="110px" src="./assets/logos/sap partner.png" alt="Logo SAP" />
+                        
+                            
+                       
+                            <img loading="lazy" width="110px" src="./assets/logos/softland.webp" alt="Logo Softland" />
+                        
+                            
+                </div>
+                        
+            </div>
+        </section>
+
         <section id="services" class="container-custom services">
             <div class="services info">
                 <h3 class="services-title">Servicios</h3>
@@ -87,7 +103,7 @@
                     suscipit
                     maiores, id autem enim.</p>
             </div>
-            <div class="splide hide-on-med-and-up" id="services-carousel" aria-labelledby="carousel-heading ">
+            <!-- <div class="splide hide-on-med-and-up" id="services-carousel" aria-labelledby="carousel-heading ">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
@@ -171,7 +187,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
             <div class="services-grid hide-on-med-and-down">
                 <?php include "./components/services/services.php"?>
             </div>
@@ -341,6 +357,7 @@
                 </div>
             </div>
         </section>
+       
         <section id="contact">
 
         </section>

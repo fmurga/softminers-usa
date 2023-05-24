@@ -54,6 +54,10 @@ span {
   background-color: #005DFE !important;
 }
 
+.bg-black {
+  background-color: #000000 !important;
+}
+
 .color-primary {
   color: #005DFE !important;
 }
