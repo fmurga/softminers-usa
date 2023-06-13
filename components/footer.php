@@ -6,18 +6,22 @@
         <hr class="color-secondary font-size-lg">
         <h6 class="my-2 color-secondary">Social Media</h6>
         <ul class="nav flex-row gap-3">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i
+          <li class="nav-item mb-2"><a href="https://www.facebook.com/softminers" class="nav-link p-0 text-white"><i
                 class="fa-brands fa-facebook"></i></a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i
+          <li class="nav-item mb-2"><a href="https://www.instagram.com/softminers/" class="nav-link p-0 text-white"><i
                 class="fa-brands fa-instagram"></i></a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i
+          <li class="nav-item mb-2"><a href="https://api.whatsapp.com/send/?phone=5493515218080&text&type=phone_number&app_absent=0" class="nav-link p-0 text-white"><i
                 class="fa-brands fa-whatsapp"></i></a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i class="fa-brands fa-youtube"></i></a>
-          </li>
+          <li class="nav-item mb-2"><a href="https://join.skype.com/invite/znImZ17DyNcF" class="nav-link p-0 text-white"><i
+                class="fa-brands fa-skype"></i></a></li>
+          <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UC_l5wNcWvjaKiG3iC_ql_ZQ" class="nav-link p-0 text-white"><i 
+                class="fa-brands fa-youtube"></i></a></li>
+         <li class="nav-item mb-2"><a href="https://www.linkedin.com/company/softminers" class="nav-link p-0 text-white"><i
+                class="fa-brands fa-linkedin"></i></a></li>
         </ul>
       </div>
       <div class="col-12 col-md-9 mb-3">
-        <h4 class="color-secondary mb-2">Useful Links</h4>
+        <h4 class="color-secondary mb-2">Sitemap</h4>
         <ul class="nav flex-row justify-content-between" id="navigation">
           <li class="nav-item mb-2"><a href="#hero" class="nav-link p-0 text-white">Home</a></li>
           <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-white">SAP Services</a></li>
@@ -29,12 +33,17 @@
 
       <div class="col-12 col-md-9 offset-3 mb-3">
         <ul class="nav flex-row justify-content-between" id="navigation">
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag Argentina" /> Argentina</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag USA" /> USA</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag Chile" /> Chile</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag Spain" /> Spain</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag Colombia" /> Colombia</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="" alt="Flag Costa Rica" /> Costa Rica</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/AR-flag.jpg" alt="Flag Argentina" />  Argentina</li>
+          <li class="nav-item mb-2 p-0 text-white">·</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/US-flag.jpg" alt="Flag USA" />  USA</li>
+          <li class="nav-item mb-2 p-0 text-white">·</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/CI-flag.jpg" alt="Flag Chile" />  Chile</li>
+          <li class="nav-item mb-2 p-0 text-white">·</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/SP-flag.jpg" alt="Flag Spain" />  Spain</li>
+          <li class="nav-item mb-2 p-0 text-white">·</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/CO-flag.jpg" alt="Flag Colombia" />  Colombia</li>
+          <li class="nav-item mb-2 p-0 text-white">·</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="assets/img/CS-flag.jpg" alt="Flag Costa Rica" />  Costa Rica</li>
         </ul>
       </div>
 
