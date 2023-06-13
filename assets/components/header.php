@@ -1,7 +1,8 @@
+<header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top" aria-label="Eighth navbar example">
-  <div class="container-fluid bg-blue">
+  <div class="container bg-blue">
     <a class="navbar-brand" href="/usa/">
-      <img src="./assets/logos/logo-light.png" alt="Logo SoftMiners">
+      <img src="assets/logos/logo-light.png" alt="Logo SoftMiners">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
       aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,3 +30,4 @@
     </div>
   </div>
 </nav>
+</header>

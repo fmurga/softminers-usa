@@ -3,7 +3,7 @@
         <div class="col-lg-12">
             <div class="contact-text section-header text-center">
                 <div>
-                    <h2 class="section-title " style="color: white;">Contáctenos</h2>
+                    <h2 class="section-title mb-3" style="color: white;">Contáctenos</h2>
                 </div>
             </div>
         </div>

@@ -30,9 +30,7 @@
 
 <body>
 
-  <header>
-    <?php include "./components/header.php" ?>
-  </header>
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/header.php"; ?>
   <main style="margin-top: 90px;">
     <section id="hero" class="hero bg-blue">
       <div class="hover_color_bubble"></div>
@@ -60,7 +58,7 @@
             </div>
           </div>
           <div class="col-lg-6 d-flex justify-content-end">
-            <?php include "./components/contact/contact.php"?>
+            <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/contact/contact.php"; ?>
           </div>
         </div>
       </div>
@@ -72,7 +70,7 @@
         <p class="services text">Lo ayudamos a mejorar y maximizar el uso de SAP en su empresa, genere el mejor retorno
           de su inversión en sus procesos</p>
       </div>
-      <?php include "./components/services/services.php"?>
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/services/services.php"; ?>
     </section>
 
     <section id="map" class="py-3 map bg-gray">
@@ -81,7 +79,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-5 offset-md-7 map-info">
+          <div class="col-12 col-md-5 offset-md-7 map-info my-5">
             <div class="col-12 mobile-map hide-on-med-and-up">
               <img loading="lazy" src="./assets/img/worldmap-mob.png" alt="World map mobile" width="100%" height="100%">
             </div>
@@ -107,12 +105,12 @@
     </section>
 
     <section id="diferentials" class="py-5 diferentials">
-      <div class="diferentials-info">
-        <h4 class="diferentials-title">Soluciones SaaS</h4>
+      <div class="diferentials-info mb-4">
+        <h4 class="diferentials-title mb-3">Soluciones SaaS</h4>
         <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
           and project them inside and outside the organization.</p>
       </div>
-      <?php include "./components/diferentials/diferentials.php"?>
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/diferentials/diferentials.php"; ?>
     </section>
 
 
@@ -196,7 +194,7 @@
 
     </section>
   </main>
-  <?php include "./components/footer.php" ?>
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/footer.php"; ?>
   <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
   </script>
