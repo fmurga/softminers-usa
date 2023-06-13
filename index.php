@@ -43,14 +43,7 @@
                             <div class="hero-content">
                                 <h1 class="hero-title">SoftMiners</h1>
                                 <h3 class="hero-title">make it happen</h3>
-                                <p class="hero-text">The process of digital transformation poses significant daily
-                                    obstacles
-                                    that
-                                    must be tackled with agility, efficiency, and scalability. It is crucial to
-                                    recognize
-                                    that
-                                    this
-                                    process is in a perpetual state of flux and evolution.</p>
+                                <p class="hero-text">The process of digital transformation poses significant daily obstacles that must be tackled with agility, efficiency, and scalability. It is crucial to recognize that this process is in a perpetual state of flux and evolution.</p>
                             </div>
                         </div>
                     </div>
@@ -96,14 +89,10 @@
 
         <section id="services" class="container-custom services">
             <div class="services info">
-                <h3 class="services-title">Servicios</h3>
-                <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate,
-                    atque
-                    culpa eligendi, molestias ut placeat fuga iusto odio quos mollitia maiores! Dolores rem porro
-                    suscipit
-                    maiores, id autem enim.</p>
+                <h3 class="services-title">Servicios SAP</h3>
+                <p class="services-text">Lo ayudamos a mejorar y maximizar el uso de SAP en su empresa, genere el mejor retorno de su inversión en sus procesos</p>
             </div>
-            <!-- <div class="splide hide-on-med-and-up" id="services-carousel" aria-labelledby="carousel-heading ">
+            <div class="splide hide-on-med-and-up" id="services-carousel" aria-labelledby="carousel-heading ">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
@@ -187,7 +176,7 @@
                         </li>
                     </ul>
                 </div>
-            </div> -->
+            </div>
             <div class="services-grid hide-on-med-and-down">
                 <?php include "./components/services/services.php"?>
             </div>
@@ -227,9 +216,8 @@
 
         <section id="diferentials" class="py-5 diferentials">
             <div class="diferentials-info">
-                <h4 class="diferentials-title">Our values</h4>
-                <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
-                    and project them inside and outside the organization.</p>
+                <h4 class="diferentials-title">SaaS Solutions</h4>
+                <p class="diferentials-text">Ofrecemos soluciones de primer nivel que integran modelado, implementación, ejecución, control y monitoreo de múltiples necesidades de aplicaciones de negocios.</p>
             </div>
             <?php include "./components/diferentials/diferentials.php"?>
         </section>
