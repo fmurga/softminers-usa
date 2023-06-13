@@ -35,7 +35,7 @@
   </header>
   <main style="margin-top: 90px;">
     <section id="hero" class="hero bg-blue">
-      <!-- <div class="hover_color_bubble"></div> -->
+      <div class="hover_color_bubble"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -51,20 +51,6 @@
                   that
                   this
                   process is in a perpetual state of flux and evolution.</p>
-              </div>
-              <div class="hero-icons-container">
-                <p class="hero-subtitle">Bussines Partners</p>
-                <div class="hero-icons">
-                  <!-- <i class="fa-brands fa-facebook"></i> -->
-                  <a href=""><img loading="lazy" width="123px" src="./assets/logos/ibm.gif" alt="IBM Partner"></a>
-                  <!-- <i class="fa-brands fa-linkedin"></i> -->
-                  <a href=""><img loading="lazy" width="123px" src="./assets/logos/softexpert.png" alt="SoftExpert"></a>
-                  <!-- <i class="fa-brands fa-youtube"></i> -->
-                  <a href=""><img loading="lazy" width="123px" src="./assets/logos/sap partner.png"
-                      alt="SAP Partner Open Ecosystem"></a>
-                  <!-- <i class="fa-brands fa-youtube"></i> -->
-                  <a href=""><img loading="lazy" width="123px" src="./assets/logos/softland.webp" alt="Softland"></a>
-                </div>
               </div>
             </div>
             <div class="hero-icons-container">
@@ -82,94 +68,11 @@
     </section>
     <section id="services" class="container-custom services">
       <div class="services info">
-        <h3 class="services-title">Servicios</h3>
-        <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate,
-          atque
-          culpa eligendi, molestias ut placeat fuga iusto odio quos mollitia maiores! Dolores rem porro
-          suscipit
-          maiores, id autem enim.</p>
+        <h3 class="services title">SAP Services</h3>
+        <p class="services text">Lo ayudamos a mejorar y maximizar el uso de SAP en su empresa, genere el mejor retorno
+          de su inversión en sus procesos</p>
       </div>
-      <div class="splide hide-on-med-and-up" id="services-carousel" aria-labelledby="carousel-heading ">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Business Process Automation</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">SAP consulting</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Cloud</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Infraestrcture</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Business Solutions</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Heading</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat
-                    molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="services-card">
-                <img loading="lazy" width="406px" height="256px" src="./assets/sliders/1.jpg" alt="Service 1">
-                <div class="services-info">
-                  <h3 class="services-title">Heading</h3>
-                  <p class="services-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores at fugiat
-                    molestias aliquam exercitationem assumenda animi.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="services-grid hide-on-med-and-down">
-        <?php include "./components/services/services.php"?>
-      </div>
+      <?php include "./components/services/services.php"?>
     </section>
 
     <section id="map" class="py-3 map bg-gray">
@@ -205,7 +108,7 @@
 
     <section id="diferentials" class="py-5 diferentials">
       <div class="diferentials-info">
-        <h4 class="diferentials-title">Our values</h4>
+        <h4 class="diferentials-title">Soluciones SaaS</h4>
         <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
           and project them inside and outside the organization.</p>
       </div>
@@ -213,7 +116,7 @@
     </section>
 
 
-    <section id="clients" class="m-auto py-5 bg-gray splide skyblue" aria-labelledby="carousel-heading">
+    <section id="clients-carousel" class="m-auto py-5 bg-gray splide skyblue" aria-labelledby="carousel-heading">
       <div class="container">
         <div class="clients info">
           <h3 class="clients title">Clientes</h3>
@@ -225,12 +128,6 @@
         </div>
         <div class="splide__track">
           <ul class="splide__list">
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo01.png" alt="Logo Aguas Cordobesas" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo02.png" alt="Logo Allus" />
-            </li>
             <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo03.png" alt="Logo Arauco" />
             </li>
@@ -250,9 +147,6 @@
               <img loading="lazy" width="110px" src="./assets/clients/logo08.png" alt="Logo Coca cola Andina" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo09.png" alt="Logo Fono Bus" />
-            </li>
-            <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo10.gif" alt="Logo Gema Biotech" />
             </li>
             <li class="splide__slide">
@@ -268,25 +162,10 @@
               <img loading="lazy" width="110px" src="./assets/clients/logo14.png" alt="Logo Jhon M Phillips" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo15.png" alt="Logo Konecta" />
-            </li>
-            <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo16.png" alt="Logo LDC" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo17.png" alt="Logo Lheritier" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo18.jpg" alt="Logo Libertad" />
-            </li>
-            <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo19.png" alt="Logo Loma Negra" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo20.jpg" alt="Logo Microvqz" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo21.jpg" alt="Logo NCA" />
             </li>
             <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo22.jpg" alt="Logo ParexKlaucol" />
@@ -298,7 +177,7 @@
               <img loading="lazy" width="110px" src="./assets/clients/logo24.jpg" alt="Logo Quickfood" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo25.jpg" alt="Logo Reydel Automotive" />
+              <img loading="lazy" width="110px" src="./assets/clients/logo25.jpg" alt="Logo Denso Manufacturing" />
             </li>
             <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo26.jpg" alt="Logo Arca continental" />
@@ -308,18 +187,6 @@
             </li>
             <li class="splide__slide">
               <img loading="lazy" width="110px" src="./assets/clients/logo28.jpg" alt="Logo Scania" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo29.jpg" alt="Logo U Siglo 21" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo30.png" alt="Logo SoftExpert" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo31.png" alt="Logo Weg" />
-            </li>
-            <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo32.jpg" alt="Logo Zelteck" />
             </li>
           </ul>
         </div>
