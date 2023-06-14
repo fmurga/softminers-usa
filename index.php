@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex">
   <meta name="googlebot" content="noindex">
+  <meta name="description" content="SoftMiners is one of the leading companies in SAP solutions and SAP support and consulting services in Argentina, with international presence in the United States, Chile, and Spain.">
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="../assets/images/favicon/favicon.png" type="image/png">
@@ -25,8 +26,8 @@
   <link rel="stylesheet" href="https://kit.fontawesome.com/98cbb78275.css" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/normlize.css" />
   <link rel="stylesheet" href="./css/styles.css" />
-  <title>SoftMiners: make it happen</title>
-</head>
+  <title>SoftMiners - Experts in SAP Consulting Services and SAP ABAP Developments</title>
+  </head>
 
 <body>
 
@@ -67,8 +68,7 @@
     <section id="services" class="container-custom services">
       <div class="services info">
         <h3 class="services title">SAP Services</h3>
-        <p class="services text">Lo ayudamos a mejorar y maximizar el uso de SAP en su empresa, genere el mejor retorno
-          de su inversión en sus procesos</p>
+        <p class="services text">We help you improve and maximize the use of SAP in your company, generating the best return on your investment in your processes.</p>
       </div>
       <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/usa/assets"; include $IPATH."/components/services/services.php"; ?>
     </section>
@@ -106,7 +106,7 @@
 
     <section id="diferentials" class="py-5 diferentials">
       <div class="diferentials-info mb-4">
-        <h4 class="diferentials-title mb-3">Soluciones SaaS</h4>
+        <h4 class="diferentials-title mb-3">SaaS Solutions</h4>
         <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
           and project them inside and outside the organization.</p>
       </div>
@@ -117,12 +117,8 @@
     <section id="clients-carousel" class="m-auto py-5 bg-gray splide skyblue" aria-labelledby="carousel-heading">
       <div class="container">
         <div class="clients info">
-          <h3 class="clients title">Clientes</h3>
-          <p class="clients text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            cupiditate, atque
-            culpa eligendi, molestias ut placeat fuga iusto odio quos mollitia maiores! Dolores rem porro
-            suscipit
-            maiores, id autem enim.</p>
+          <h3 class="clients title">Clients</h3>
+          <p class="clients text"></p>
         </div>
         <div class="splide__track">
           <ul class="splide__list">

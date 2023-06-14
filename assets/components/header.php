@@ -15,13 +15,13 @@
           <a class="nav-link p-4 active" aria-current="page" href="#hero" data-tab-id="hero">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="#services" data-tab-id="services">Services</a>
+          <a class="nav-link p-4" aria-current="page" href="#services" data-tab-id="services">SAP Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link p-4" aria-current="page" href="#map" data-tab-id="map">Coverage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="#diferentials" data-tab-id="diferentials">Differentials</a>
+          <a class="nav-link p-4" aria-current="page" href="#diferentials" data-tab-id="diferentials">SaaS Solutions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link p-4" aria-current="page" href="#clients-carousel" data-tab-id="clients">Clients</a>

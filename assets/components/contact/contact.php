@@ -21,15 +21,15 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" name="name"
-                                placeholder="Nombre y Apellido" required
-                                data-error="Por favor ingresar nombre y apellido">
+                                placeholder="Name and Last Name" required
+                                data-error="Please enter first and last name">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" placeholder="Empresa" id="msg_subject" class="form-control"
-                                name="msg_subject" required data-error="Por favor ingresar su empresa">
+                            <input type="text" placeholder="Company" id="msg_subject" class="form-control"
+                                name="msg_subject" required data-error="Please enter your company">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -42,19 +42,19 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" placeholder="Teléfono" id="phone" class="form-control" name="phone"
-                                required data-error="Por favor ingresar un teléfono">
+                            <input type="text" placeholder="Phone Number" id="phone" class="form-control" name="phone"
+                                required data-error="Please enter a phone number">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" placeholder="Mensaje Adicional"
-                                rows="4" data-error="Escriba un mensaje" required></textarea>
+                            <textarea class="form-control" id="message" name="message" placeholder="Additional Message"
+                                rows="4" data-error="Write an Additional Message" required></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="submit-button">
-                            <button class="btn btn-common" id="submit" type="submit">Contactar</button>
+                            <button class="btn btn-common" id="submit" type="submit">Submit</button>
                             <div id="msgSubmit" class="h3 hidden"></div>
                             <div class="clearfix"></div>
                         </div>

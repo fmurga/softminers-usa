@@ -2,33 +2,33 @@
     $cards = [
         [
             'imagePath' => './assets/icons/BPM.png',
-            'title' => 'BPM - Gestión de Procesos de Negocio',
-            'description' => "SoftExpert BPM mejora la visibilidad y el control de los procesos de negocio a través de una solución amigable y enfocada en las personas (human-centric). La solución estimula la mejora continua de los procesos por toda la organización. La misma administra todas las etapas de su ciclo de vida, desde el modelaje y optimización hasta la automación, ejecución y monitorización."
+            'title' => 'BPM - Business Process Management',
+            'description' => "SoftExpert BPM is a process management software that improves visibility and control of business processes through a user-friendly, human-centric solution. The solution encourages continuous process improvement throughout the organization. It manages every stage of the organizational lifecycle, from modeling and optimization to automation, execution and monitoring."
         ],
         [
             'imagePath' => './assets/icons/EAM.png',
-            'title' => 'EAM - Gestión de Activos',
-            'description' => "SoftExpert EAM es un software que optimiza el desempeño y el uso de los activos, reduce costos operacionales y elimina el tiempo de inactividad no planificado. La herramienta agrega valor y maximiza la vida útil de todos los tipos de activos – producción, instalaciones, transporte y TI."
+            'title' => 'EAM - Enterprise Asset Management',
+            'description' => "SoftExpert EAM is an Asset Management software which optimizes asset performance and utilization at lower operating costs by eliminating unplanned downtime to maximize the lifetime value of all asset types – production, facilities, transportation and IT."
         ],
         [
             'imagePath' => './assets/icons/EQM.png',
-            'title' => 'EQM - Gestión de la Calidad Empresarial',
-            'description' => "SoftExpert EQM es un software para gestión de calidad completo. Con él, las empresas pueden obtener y mantener la certificación ISO 9001 por medio de procesos de calidad automatizados y altamente interactivos, adaptados a las prácticas de negocio, productos y operaciones específicas de cada organización."
+            'title' => 'EQM - Enterprise Quality Management',
+            'description' => "SoftExpert EQM is the most comprehensive enterprise quality management software (EQMS). It helps companies to achieve and maintain ISO 9001 certification through automated, highly interactive quality processes tailored to an organization’s specific products, operations and business practices."
         ],
         [
             'imagePath' => './assets/icons/ECM.png',
-            'title' => 'ECM - Gestión de Contenido Empresarial',
-            'description' => "SoftExpert ECM es una solución robusta 100% web, que ofrece todos los principales recursos necesarios para crear, capturar, administrar, almacenar, preservar y distribuir contenidos relacionados a los procesos organizacionales. Es la solución perfecta para centralizar contenido no estructurado y administrar su ciclo de vida por completo."
+            'title' => 'ECM - Enterprise Content Management',
+            'description' => "SoftExpert ECM is a software that provides all of the core content management services needed to create, capture, manage, store, preserve, and deliver content related to organizational processes. It is a practical software solution for centralizing unstructured content and better managing the entire content lifecycle."
         ],
         [
             'imagePath' => './assets/icons/GRC.png',
-            'title' => 'GRC - Gestión de Gobierno, Riesgos y Cumplimiento',
-            'description' => "SoftExpert GRC es un software para la gestión de la gobernanza corporativa, los riesgos y la conformidad que permite a las organizaciones integrar eficazmente la aplicación de la estrategia empresarial con las prácticas de conformidad y gestión de riesgos. Como resultado, los gestores trabajan para alcanzar sus metas teniendo el soporte de la gestión de riesgos y asegurando la conformidad con las políticas corporativas, leyes y regulaciones, como SOX, COSO, COBIT e ISO 31000."
+            'title' => 'GRC - Governance, Risk and Compliance Management',
+            'description' => "SoftExpert GRC is a robust web-based software for supporting all governance, risk and compliance management processes in the organization. It enables organizations to effectively integrate business strategy execution with compliance and risk management practices. As a result, managers can accomplish organizational goals while managing risk and ensuring that operations stay compliant with corporate policies, laws and regulations, such as SOX, COSO, COBIT, and ISO 31000."
         ],
         [
             'imagePath' => './assets/icons/HDM.png',
-            'title' => 'HDM - Gestión de Competencias',
-            'description' => "SoftExpert HDM es una plataforma web para gestión del desarrollo humano. Permite mapeo de competencias, ejecución de capacitaciones, evaluación de desempeño y planificación de sucesión. Su objetivo es ayudar a las organizaciones a desarrollar una fuerza de trabajo altamente calificada y comprometida, alineada con las estrategias de negocio."
+            'title' => 'HDM - Human Development Management',
+            'description' => "SoftExpert HDM is a comprehensive web-based human development management software. It allows for competency mapping, training and development, performance review and succession planning. Its purpose is to help organizations develop a highly skilled and engaged workforce, aligned with business strategy."
         ],
     ];
 ?>
