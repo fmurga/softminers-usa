@@ -14,7 +14,7 @@
     <div class="row">
         <!-- Start Col -->
         <div class="col-lg-12 col-md-12 col-xs-12">
-            <form id="contactForm" action="/form-process.php" method="post">
+            <form id="contactForm" action="/assets/components/contact/form-process.php" method="post">
                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                 <input type="hidden" name="campaign" id="campaign" placeholder="ESP" defaultValue="ESP" value="ESP">
                 <div class="row">
