@@ -9,7 +9,7 @@
   <meta name="googlebot" content="noindex">
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="../assets/images/favicon/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.png" type="image/png">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -23,8 +23,8 @@
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/98cbb78275.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://kit.fontawesome.com/98cbb78275.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/normlize.css" />
-  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="/css/normlize.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
   <title>SoftMiners: make it happen</title>
 </head>
 
@@ -46,7 +46,7 @@
           <div class="text-center">
             <h1 class="mb-3">Thank you for reaching us!</h1>
             <p class="mb-3">Finally, we will get in touch by email in the next few hours.</p>
-            <a class="btn btn-primary" href="/index.php">Back Home</a>
+            <a class="btn btn-primary" href="/en/index.php">Back Home</a>
           </div>
         </div>
     </section>

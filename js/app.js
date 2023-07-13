@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
             const originalUrl = event.target.href;
             const fragmentIdentifier = originalUrl.split('#')[1];
+            console.log(fragmentIdentifier)
             const section = document.getElementById(fragmentIdentifier);
 
             if (section) {

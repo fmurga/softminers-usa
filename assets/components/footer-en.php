@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-3 mb-3">
-        <img class="mb-2" src="../assets/logos/logo-light.png" alt="Softminers Logo" />
+        <img class="mb-2" src="/assets/logos/logo-light.png" alt="Softminers Logo" />
         <hr class="color-secondary font-size-lg">
         <h6 class="my-2 color-secondary">Social Media</h6>
         <ul class="nav flex-row gap-3">
@@ -33,17 +33,17 @@
 
       <div class="col-12 col-md-9 offset-3 mb-3">
         <ul class="nav flex-row justify-content-between" id="navigation">
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/AR-flag.jpg" alt="Flag Argentina" />  Argentina</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/AR-flag.jpg" alt="Flag Argentina" />  Argentina</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/US-flag.jpg" alt="Flag USA" />  USA</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/US-flag.jpg" alt="Flag USA" />  USA</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/CI-flag.jpg" alt="Flag Chile" />  Chile</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CI-flag.jpg" alt="Flag Chile" />  Chile</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/SP-flag.jpg" alt="Flag Spain" />  Spain</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/SP-flag.jpg" alt="Flag Spain" />  Spain</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/CO-flag.jpg" alt="Flag Colombia" />  Colombia</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CO-flag.jpg" alt="Flag Colombia" />  Colombia</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="../assets/img/CS-flag.jpg" alt="Flag Costa Rica" />  Costa Rica</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CS-flag.jpg" alt="Flag Costa Rica" />  Costa Rica</li>
         </ul>
       </div>
 

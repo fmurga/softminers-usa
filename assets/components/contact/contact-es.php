@@ -14,22 +14,22 @@
     <div class="row">
         <!-- Start Col -->
         <div class="col-lg-12 col-md-12 col-xs-12">
-            <form id="contactForm" action="../campaigns/php/form-process.php" method="post">
+            <form id="contactForm" action="/form-process.php" method="post">
                 <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
-                <input type="hidden" name="campaign" id="campaign" placeholder="usa" defaultValue="usa" value="usa">
+                <input type="hidden" name="campaign" id="campaign" placeholder="ESP" defaultValue="ESP" value="ESP">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <input type="text" class="form-control" id="name" name="name"
                                 placeholder="Name and Last Name" required
-                                data-error="Please enter first and last name">
+                                data-error="Escriba su Nombre y Apellido">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" placeholder="Company" id="msg_subject" class="form-control"
-                                name="msg_subject" required data-error="Please enter your company">
+                            <input type="text" placeholder="Empresa" id="msg_subject" class="form-control"
+                                name="msg_subject" required data-error="Nombre de su Empresa">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
@@ -42,19 +42,19 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" placeholder="Phone Number" id="phone" class="form-control" name="phone"
-                                required data-error="Please enter a phone number">
+                            <input type="text" placeholder="Número de Celular" id="phone" class="form-control" name="phone"
+                                required data-error="Número de celular">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <textarea class="form-control" id="message" name="message" placeholder="Additional Message"
-                                rows="4" data-error="Write an Additional Message" required></textarea>
+                                rows="4" data-error="Mensaje Adicional" required></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="submit-button">
-                            <button class="btn btn-common" id="submit" type="submit">Submit</button>
+                            <button class="btn btn-common" id="submit" type="submit">Enviar</button>
                             <div id="msgSubmit" class="h3 hidden"></div>
                             <div class="clearfix"></div>
                         </div>

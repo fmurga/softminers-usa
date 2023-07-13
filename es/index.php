@@ -10,7 +10,7 @@
   <meta name="description" content="SoftMiners is one of the leading companies in SAP solutions and SAP support and consulting services in Argentina, with international presence in the United States, Chile, and Spain.">
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="../assets/images/favicon/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="./assets/images/favicon/favicon.png" type="image/png">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -24,14 +24,14 @@
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/98cbb78275.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://kit.fontawesome.com/98cbb78275.css" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/normlize.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="/css/normlize.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
   <title>SoftMiners - Experts in SAP Consulting Services and SAP ABAP Developments</title>
   </head>
 
 <body>
 
-  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/header-en.php"; ?>
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/header-es.php"; ?>
   <main style="margin-top: 90px;">
     <section id="hero" class="hero bg-blue">
       <div class="hover_color_bubble"></div>
@@ -42,24 +42,17 @@
               <div class="hero-content">
                 <h1 class="hero-title">SoftMiners</h1>
                 <h3 class="hero-title">make it happen</h3>
-                <p class="hero-text">The process of digital transformation poses significant daily
-                  obstacles
-                  that
-                  must be tackled with agility, efficiency, and scalability. It is crucial to
-                  recognize
-                  that
-                  this
-                  process is in a perpetual state of flux and evolution.</p>
+                <p class="hero-text">HOLAAAAAAAAAAAAA</p>
               </div>
             </div>
             <div class="hero-icons-container">
               <div class="hero-icons">
-                <img loading="lazy" width="200px" src="./assets/logos/sap-light.png" alt="SAP Partner Open Ecosystem">
+                <img loading="lazy" width="200px" src="/assets/logos/sap-light.png" alt="SAP Partner Open Ecosystem">
               </div>
             </div>
           </div>
           <div class="col-lg-6 d-flex justify-content-end">
-            <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/contact/contact-en.php"; ?>
+            <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/contact/contact-es.php"; ?>
           </div>
         </div>
       </div>
@@ -74,14 +67,14 @@
     </section>
 
     <section id="map" class="py-3 map bg-gray">
-      <div class="background hide-on-med-and-down" style="background-image: url(./assets/img/worldmap.png)">
+      <div class="background hide-on-med-and-down" style="background-image: url(/assets/img/worldmap.png)">
 
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-5 offset-md-7 map-info my-5">
             <div class="col-12 mobile-map hide-on-med-and-up">
-              <img loading="lazy" src="./assets/img/worldmap-mob.png" alt="World map mobile" width="100%" height="100%">
+              <img loading="lazy" src="/assets/img/worldmap-mob.png" alt="World map mobile" width="100%" height="100%">
             </div>
             <p class="map-subtitle">We innovate for companies in Latin America, the United States and Spain.
             </p>
@@ -123,64 +116,64 @@
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo03.png" alt="Logo Arauco" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo03.png" alt="Logo Arauco" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo04.jpg" alt="Logo Bancor" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo04.jpg" alt="Logo Bancor" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo05.png" alt="Logo cargo" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo05.png" alt="Logo cargo" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo06.png" alt="Logo Cerro Vanguardia" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo06.png" alt="Logo Cerro Vanguardia" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo07.png" alt="Logo Correo argentino" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo07.png" alt="Logo Correo argentino" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo08.png" alt="Logo Coca cola Andina" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo08.png" alt="Logo Coca cola Andina" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo10.gif" alt="Logo Gema Biotech" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo10.gif" alt="Logo Gema Biotech" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo11.jpg" alt="Logo Gestamp" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo11.jpg" alt="Logo Gestamp" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo12.png" alt="Logo Holcim" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo12.png" alt="Logo Holcim" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo13.png" alt="Logo IPH" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo13.png" alt="Logo IPH" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo14.png" alt="Logo Jhon M Phillips" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo14.png" alt="Logo Jhon M Phillips" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo16.png" alt="Logo LDC" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo16.png" alt="Logo LDC" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo19.png" alt="Logo Loma Negra" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo19.png" alt="Logo Loma Negra" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo22.jpg" alt="Logo ParexKlaucol" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo22.jpg" alt="Logo ParexKlaucol" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo23.png" alt="Logo Pernod Ricard" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo23.png" alt="Logo Pernod Ricard" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo24.jpg" alt="Logo Quickfood" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo24.jpg" alt="Logo Quickfood" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo25.jpg" alt="Logo Denso Manufacturing" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo25.jpg" alt="Logo Denso Manufacturing" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo26.jpg" alt="Logo Arca continental" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo26.jpg" alt="Logo Arca continental" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo27.png" alt="Logo ScJohnson" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo27.png" alt="Logo ScJohnson" />
             </li>
             <li class="splide__slide">
-              <img loading="lazy" width="110px" src="./assets/clients/logo28.jpg" alt="Logo Scania" />
+              <img loading="lazy" width="110px" src="/assets/clients/logo28.jpg" alt="Logo Scania" />
             </li>
           </ul>
         </div>
@@ -190,7 +183,7 @@
 
     </section>
   </main>
-  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/footer-en.php"; ?>
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/footer-es.php"; ?>
   <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
   </script>
@@ -221,7 +214,7 @@
 
   gtag('config', 'G-F350NNR72Q');
   </script>
-  <script src="./js/app.js" type="text/javascript"></script>
+  <script src="/js/app.js" type="text/javascript"></script>
 </body>
 
 </html>

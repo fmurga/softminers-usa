@@ -1,9 +1,12 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/softmine/public_html/usa
+    - export DEPLOYPATH=/home/softmine/global.softminers.com
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R en $DEPLOYPATH
+    - /bin/cp -R es $DEPLOYPATH
+    - /bin/cp -R components $DEPLOYPATH
     - /bin/cp -R thank-you $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     
