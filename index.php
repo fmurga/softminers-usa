@@ -106,9 +106,8 @@
 
     <section id="diferentials" class="py-5 diferentials">
       <div class="diferentials-info mb-4">
-        <h4 class="diferentials-title mb-3">SaaS Solutions</h4>
-        <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
-          and project them inside and outside the organization.</p>
+        <h4 class="diferentials-title mb-3">SoftExpert Solutions</h4>
+        <p class="diferentials-text">SoftExpert provides cutting-edge solutions that integrate the modeling, implementation, execution, control and monitoring of multiple business application demands.</p>
       </div>
       <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/diferentials/diferentials.php"; ?>
     </section>

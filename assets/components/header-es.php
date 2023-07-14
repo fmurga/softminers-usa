@@ -12,19 +12,19 @@
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample07">
       <ul class="navbar-nav mb-2 mb-lg-0" id="navigation">
         <li class="nav-item">
-          <a class="nav-link p-4 active" aria-current="page" href="/es/#hero" data-tab-id="hero">Home</a>
+          <a class="nav-link p-4 active" aria-current="page" href="/es/#hero" data-tab-id="hero">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="/es/#services" data-tab-id="services">SAP Services</a>
+          <a class="nav-link p-4" aria-current="page" href="/es/#services" data-tab-id="services">Servicios SAP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="/es/#map" data-tab-id="map">Coverage</a>
+          <a class="nav-link p-4" aria-current="page" href="/es/#map" data-tab-id="map">Cobertura</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="/es/#diferentials" data-tab-id="diferentials">SaaS Solutions</a>
+          <a class="nav-link p-4" aria-current="page" href="/es/#diferentials" data-tab-id="diferentials">Soluciones SoftExpert</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="/es/#clients-carousel" data-tab-id="clients">Clients</a>
+          <a class="nav-link p-4" aria-current="page" href="/es/#clients-carousel" data-tab-id="clients">Clientes</a>
         </li>
         <li>
           <a class="nav-link p-4" aria-current="page" href="/es/" data-tab-id="lang-es"><img src="/assets/img/SP-flag.jpg" alt=""></a>

@@ -21,7 +21,7 @@
           <a class="nav-link p-4" aria-current="page" href="/en/#map" data-tab-id="map">Coverage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link p-4" aria-current="page" href="/en/#diferentials" data-tab-id="diferentials">SaaS Solutions</a>
+          <a class="nav-link p-4" aria-current="page" href="/en/#diferentials" data-tab-id="diferentials">SoftExpert Solutions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link p-4" aria-current="page" href="/en/#clients-carousel" data-tab-id="clients">Clients</a>

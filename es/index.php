@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -12,26 +12,24 @@
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="./assets/images/favicon/favicon.png" type="image/png">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link href="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     " rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/98cbb78275.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://kit.fontawesome.com/98cbb78275.css" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/normlize.css" />
   <link rel="stylesheet" href="/css/styles.css" />
   <title>SoftMiners - Experts in SAP Consulting Services and SAP ABAP Developments</title>
-  </head>
+</head>
 
 <body>
 
-  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/header-es.php"; ?>
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets";
+  include $IPATH . "/components/header-es.php"; ?>
   <main style="margin-top: 90px;">
     <section id="hero" class="hero bg-blue">
       <div class="hover_color_bubble"></div>
@@ -42,7 +40,7 @@
               <div class="hero-content">
                 <h1 class="hero-title">SoftMiners</h1>
                 <h3 class="hero-title">make it happen</h3>
-                <p class="hero-text">HOLAAAAAAAAAAAAA</p>
+                <p class="hero-text">El proceso de transformación digital plantea importantes obstáculos diarios que deben ser abordados con agilidad, eficiencia y escalabilidad. Es crucial reconocer que este proceso se encuentra en un perpetuo estado de flujo y evolución.</p>
               </div>
             </div>
             <div class="hero-icons-container">
@@ -52,7 +50,8 @@
             </div>
           </div>
           <div class="col-lg-6 d-flex justify-content-end">
-            <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/contact/contact-es.php"; ?>
+            <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets";
+            include $IPATH . "/components/contact/contact-es.php"; ?>
           </div>
         </div>
       </div>
@@ -60,10 +59,11 @@
     </section>
     <section id="services" class="container-custom services">
       <div class="services info">
-        <h3 class="services title">SAP Services</h3>
-        <p class="services text">We help you improve and maximize the use of SAP in your company, generating the best return on your investment in your processes.</p>
+        <h3 class="services title">Servicios SAP</h3>
+        <p class="services text">Lo ayudamos a mejorar y maximizar el uso de SAP en su empresa, genere el mejor retorno de su inversión en sus procesos.</p>
       </div>
-      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/services/services.php"; ?>
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets";
+      include $IPATH . "/components/services/services-es.php"; ?>
     </section>
 
     <section id="map" class="py-3 map bg-gray">
@@ -76,21 +76,13 @@
             <div class="col-12 mobile-map hide-on-med-and-up">
               <img loading="lazy" src="/assets/img/worldmap-mob.png" alt="World map mobile" width="100%" height="100%">
             </div>
-            <p class="map-subtitle">We innovate for companies in Latin America, the United States and Spain.
+            <p class="map-subtitle">Innovamos para empresas de Latinoamérica, Estados Unidos y España.
             </p>
-            <h3 class="map-title">International coverage</h3>
-            <p class="map-text">SoftMiners is one of the leading companies in SAP solutions and SAP support
-              and
-              consulting services in Argentina, with an international presence. We work in the business
-              application software market, with a track record of more than 13 years alongside leading
-              companies, helping organizations of all sizes and in all industries to achieve optimal
-              performance.</p>
-            <p class="map-text">SoftMiners contributes to giving people and organizations deep business
-              insights
-              and fosters collaboration that allows them to stay ahead of their competitors. We make
-              technology simple for businesses so they can consume our solutions the way they want,
-              without
-              disruption.</p>
+            <h3 class="map-title">Cobertura Internacional</h3>
+            <p class="map-text">SoftMiners es una de las empresas referente en soluciones SAP y en servicios de soporte y consultoría SAP en Argentina, con presencia internacional en Estados Unidos, Chile y España.
+              Nos desempeñamos en el mercado de software de aplicación empresarial, con una trayectoria de más de 13 años a la par de empresas de primera línea, ayudando a organizaciones de todos los tamaños y en todas las industrias a alcanzar su funcionamiento óptimo.</p>
+            <p class="map-text">SoftMiners contribuye a dar a las personas y a las organizaciones profundos conocimientos de negocio y promueve la colaboración que les permite mantenerse más adelante que sus competidores.
+              Simplificamos la tecnología para las empresas, de modo que puedan consumir nuestras soluciones de la manera en que lo desean, sin interrupciones.</p>
           </div>
         </div>
 
@@ -99,18 +91,18 @@
 
     <section id="diferentials" class="py-5 diferentials">
       <div class="diferentials-info mb-4">
-        <h4 class="diferentials-title mb-3">SaaS Solutions</h4>
-        <p class="diferentials-text">These values ​​are part of our identity and reason for being and we share
-          and project them inside and outside the organization.</p>
+        <h4 class="diferentials-title mb-3">Soluciones SoftExpert</h4>
+        <p class="diferentials-text">SoftExpert ofrece soluciones de primer nivel que integran modelado, implementación, ejecución, control y monitoreo de múltiples necesidades de aplicaciones de negocios.</p>
       </div>
-      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/diferentials/diferentials.php"; ?>
+      <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets";
+      include $IPATH . "/components/diferentials/diferentials-es.php"; ?>
     </section>
 
 
     <section id="clients-carousel" class="m-auto py-5 bg-gray splide skyblue" aria-labelledby="carousel-heading">
       <div class="container">
         <div class="clients info">
-          <h3 class="clients title">Clients</h3>
+          <h3 class="clients title">Clientes</h3>
           <p class="clients text"></p>
         </div>
         <div class="splide__track">
@@ -183,9 +175,9 @@
 
     </section>
   </main>
-  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets"; include $IPATH."/components/footer-es.php"; ?>
-  <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets";
+  include $IPATH . "/components/footer-es.php"; ?>
+  <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
   </script>
   <script async src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -193,26 +185,26 @@
   <script src='https://www.google.com/recaptcha/api.js?render=6Lfue6YZAAAAAEsvOi6e6yfj_MqKV0_77wEcREZK'>
   </script>
   <script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6Lfue6YZAAAAAEsvOi6e6yfj_MqKV0_77wEcREZK', {
-      action: 'submit'
-    }).then(function(token) {
-      var recaptchaResponse = document.getElementById('recaptchaResponse');
-      recaptchaResponse.value = token;
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6Lfue6YZAAAAAEsvOi6e6yfj_MqKV0_77wEcREZK', {
+        action: 'submit'
+      }).then(function(token) {
+        var recaptchaResponse = document.getElementById('recaptchaResponse');
+        recaptchaResponse.value = token;
+      });
     });
-  });
   </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F350NNR72Q"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'G-F350NNR72Q');
+    gtag('config', 'G-F350NNR72Q');
   </script>
   <script src="/js/app.js" type="text/javascript"></script>
 </body>

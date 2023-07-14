@@ -21,29 +21,29 @@
         </ul>
       </div>
       <div class="col-12 col-md-9 mb-3">
-        <h4 class="color-secondary mb-2">Sitemap</h4>
+        <h4 class="color-secondary mb-2"></h4>
         <ul class="nav flex-row justify-content-between" id="navigation">
           <li class="nav-item mb-2"><a href="#hero" class="nav-link p-0 text-white">Home</a></li>
           <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-white">SAP Services</a></li>
           <li class="nav-item mb-2"><a href="#map" class="nav-link p-0 text-white">Coverage</a></li>
-          <li class="nav-item mb-2"><a href="#diferentials" class="nav-link p-0 text-white">SaaS Solutions</a></li>
+          <li class="nav-item mb-2"><a href="#diferentials" class="nav-link p-0 text-white">SoftExpert Solutions</a></li>
           <li class="nav-item mb-2"><a href="#clients-carousel" class="nav-link p-0 text-white">Clients</a></li>
         </ul>
       </div>
 
       <div class="col-12 col-md-9 offset-3 mb-3">
         <ul class="nav flex-row justify-content-between" id="navigation">
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/AR-flag.jpg" alt="Flag Argentina" />  Argentina</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/AR-flag.jpg" alt="Flag Argentina" style="padding-right: 10px;"/>Argentina</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/US-flag.jpg" alt="Flag USA" />  USA</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/US-flag.jpg" alt="Flag USA" style="padding-right: 10px;"/>USA</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CI-flag.jpg" alt="Flag Chile" />  Chile</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CI-flag.jpg" alt="Flag Chile" style="padding-right: 10px;"/>Chile</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/SP-flag.jpg" alt="Flag Spain" />  Spain</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/SP-flag.jpg" alt="Flag Spain" style="padding-right: 10px;"/>Spain</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CO-flag.jpg" alt="Flag Colombia" />  Colombia</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CO-flag.jpg" alt="Flag Colombia" style="padding-right: 10px;"/>Colombia</li>
           <li class="nav-item mb-2 p-0 text-white">·</li>
-          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CS-flag.jpg" alt="Flag Costa Rica" />  Costa Rica</li>
+          <li class="nav-item mb-2 p-0 text-white"><img src="/assets/img/CS-flag.jpg" alt="Flag Costa Rica" style="padding-right: 10px;"/>Costa Rica</li>
         </ul>
       </div>
 
