@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');
+
+body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: #212121;
+	line-height: 22px;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin: 0 0 0.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+}
+body h2{
+	color: #0076db;
+    font-size: 30px;
+    font-weight: 300;
+}
+body a{
+	text-decoration: none;
+}
+body h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+}
+body div{
+	box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+.banner-page{
+	padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #2b5a8e !important;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: padding 0.3s cubic-bezier(.78,.13,.15,.86);
+    position: relative;
+}
+.banner-page .image-container{
+	background-image: url(https://www.softexpert.com/wp-content/uploads/2016/09/banner-main-suite.jpg);
+	opacity: 1;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center center;
+    background-size: cover;
+    transition: opacity 0.5s;
+    box-sizing: border-box;
+}
+.banner-page .title{
+	padding-top: 90px;
+    padding-bottom: 61px;
+    max-width: 1140px;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+.banner-page .title-content{
+	text-align: center;
+}
+.banner-page .title h1{
+    margin: 0;
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.site-inner .main-content-container .content-inner{
+	padding: 0 40px;
+}
+.site-inner #menu-pages{
+	position: relative;
+	width: 100%;
+	background-color: #0091ed;
+	height: 54px;
+}
+.site-inner #menu-pages ul{
+	width: 1140px;
+    margin: 0 auto;
+    list-style: none;
+}
+.site-inner #menu-pages li{
+	display: inline-block;
+	line-height: 52px;
+	font-color: #b6cdff;
+}
+.site-inner #menu-pages li:hover,
+.site-inner #menu-pages li:active{
+    border-bottom: 2px solid #b0dffd;
+   	font-color: #ffffff;
+}
+.site-inner #menu-pages a{
+	font-size: 13px;
+	color: #b6cdff;
+	text-transform: uppercase;
+	padding: 0 25px;
+    cursor: pointer;
+}
+.menu-fixed{
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+.site-inner .visao-geral,
+.site-inner .solucao-content{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+.site-inner .visao-geral h2{
+	text-align: center;
+}
+.site-inner .visao-geral{
+	padding: 40px 0;
+}
+.site-inner .visao-geral h2{
+	margin-bottom: 0px;
+}
+.site-inner .visao-geral h3{
+	margin-bottom: 1.5rem;
+}
+.site-inner .visao-geral p{
+	font-size: 18px;
+    font-weight: 300;
+}
+.site-inner .visao-geral .content{
+	margin: 0 -25px;
+}
+.site-inner .visao-geral .column-left{
+	width: 50%;
+    float: left;
+    padding: 0 25px;
+}
+.site-inner .visao-geral .column-right{
+	width: 50%;
+    float: right;
+    padding: 0 25px;
+}
+.site-inner .puzzle-row{
+	position: relative;
+	margin: 0 auto;
+	display: block; 
+}
+.site-inner .puzzle-row .img{
+	background-image: url(https://www.softexpert.com/wp-content/uploads/2016/09/bg-puzzle.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: initial;
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+.site-inner .solucao-content{
+	padding: 80px 0;
+	margin: auto;
+	position: relative;
+}
+.site-inner .solucao-content .wrap{
+	margin: 0 -35px;
+}
+.site-inner .solucao-content .wrap .puzzle-content{
+	padding-left: 35px;
+    padding-right: 35px;
+    float: left;
+}

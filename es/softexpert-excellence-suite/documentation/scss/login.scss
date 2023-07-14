@@ -1,0 +1,183 @@
+.container-box-login{
+  width: 782px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(../imgs/SE-SUITE.png);
+  border-radius: 8px;
+  box-shadow: 0px 0px 24px 0px #888888;
+  background-position: 34% 35%;
+}
+.container-box-login .box-login{
+  margin-top: 260px;  
+  border-radius: 10px;
+}
+.container-box-login .box-login-side-container{
+  width: 50%;
+  background-color: #225884;
+  padding: 10px;
+  border-radius: 8px 0px 0px 8px;
+  height: 400px;
+}
+.box-login-side-container .box-login-side{
+  margin-top: 20px;
+}
+.box-login-side .box-login-welcome h6{
+  font-family: 'roboto';
+  color: #676767;
+  font-weight: 400;
+  text-align:  center;
+}
+.box-login-side .box-login-logo img{
+  width: 200px;
+  margin-left: 90px;
+}
+.box-login-side .box-login-message{
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+.box-login-side .box-login-message p{
+  color: #676767;
+  text-align:  center;
+}
+.box-login-form input#login,
+.box-login-form input#senha{
+  padding: 10px;
+  border: solid 1px #67676773;
+  margin-bottom: 7px;
+}
+.box-login-form input.submit-login{
+  width: 60%;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+/* ========= DOCUMENTATION SECTION ============== */
+
+nav.documentation-nav .container .nav-box-container{
+  width: 100%;
+  height: 75px;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0px 0px 5px 0px #888888;
+  z-index: 1;
+}
+.nav-box-container .navbar-logo img{
+  width: 200px;
+  padding: 7px;
+  margin-top: 6px;
+}
+
+.nav-box-container .nav-botao-download{
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  bottom: 46px;
+}
+.nav-box-container .nav-botao-download a{
+  border: solid 1px #ff6c00;
+  padding: 13px 27px 13px 13px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.nav-box-container .nav-botao-download a:hover{
+  background-color: #ff6c00;
+  color: #fff;
+  transition: .2s;
+}
+.nav-box-container .nav-botao-download span i{
+  position: absolute;
+  left: 245px;
+}
+
+.nav-box-container .navbar-opcoes{
+  width: 30%;
+  float: right;
+  top: 12px;
+  position: absolute;
+  right: 10px;
+  line-height: 3;
+  letter-spacing: 2px;
+}
+.nav-box-container .navbar-opcoes .nav-pesquisa{
+  width: 46%;
+  float: left;
+}
+.nav-box-container .navbar-opcoes .nav-back-home{
+  position: absolute;
+  right: 20px;    
+}
+.nav-box-container .navbar-opcoes .nav-back-home a{
+  color: #676767;
+  font-weight: 600;
+  font-family: roboto;
+}
+.nav-box-container .navbar-opcoes .nav-back-home a:hover{
+  color: #969595;
+  font-weight: 600;
+}
+.nav-box-container .navbar-opcoes .nav-pesquisa form span{
+  position: absolute;
+  top: 4px;
+  left: 240px;
+  color: #9e9e9e;
+  cursor: pointer;
+}
+.nav-box-container .navbar-opcoes .nav-pesquisa form span:hover{
+  color: #828080;
+}
+.nav-box-container .navbar-opcoes .nav-pesquisa form input.pesquisa{
+  padding: 5px;
+  border: solid 1px #6767;
+  box-shadow: none !important;
+  transition: 0.2s;
+  float: right;
+  width: 265px;
+}
+.nav-box-container .navbar-opcoes .nav-pesquisa form input.pesquisa:focus{
+  width: 450px;
+  float: right;
+  transition: .2s;
+}
+
+/* ============= tree files ========= */
+ul.tree, ul.tree ul {
+  list-style: none;
+  margin: 0 60px;
+  padding: 0;
+} 
+ul.tree ul {
+ margin-left: 10px;
+}
+ul.tree li {
+ margin: 0;
+ padding: 0 7px;
+ line-height: 20px;
+ color: #369;
+ font-weight: bold;
+ border-left:1px solid rgb(100,100,100);
+
+}
+ul.tree li:last-child {
+ border-left:none;
+}
+ul.tree li:before {
+  position:relative;
+  top:-0.3em;
+  height:1em;
+  width:12px;
+  color:white;
+  border-bottom:1px solid rgb(100,100,100);
+  content:"";
+  display:inline-block;
+  left:-7px;
+}
+ul.tree li:last-child:before {
+  border-left:1px solid rgb(100,100,100);   
+}
+.exemplo-mensagem{
+  border: 1px solid #676767;
+  border-radius: 8px;
+  padding: 16px;
+  width: 463px;
+  margin-bottom: 30px;
+}
