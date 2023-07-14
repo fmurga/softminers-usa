@@ -1,0 +1,20 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "Documentação do Hotsite para Parceiros SoftExpert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Aurélio da Silveira",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}

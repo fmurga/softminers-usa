@@ -1,0 +1,125 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.title_demo h1{
+    margin: 0;
+    text-align: center;
+    font: 24px 'Helvetica';
+    line-height: 2.4;
+    color: white;
+    height: 60px;
+    background-color: darkred;
+}
+#carousel_controls{
+    display: flex;
+    margin: 30px auto 80px auto;
+    width: 1220px;
+}
+#carousel_schmitt{
+    display: block;
+    margin: auto;
+    max-width: 1140px;
+    overflow: hidden;
+    
+}
+#controls_schmitt{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#controls_schmitt #schmitt_prev img, #controls_schmitt #schmitt_next img{
+    
+    border-radius: 50%;
+    cursor: pointer;
+}
+#controls_schmitt img{
+    width: 40px!important;
+    height: 40px!important;
+}
+#lista-carousel{
+    display: flex;
+    transition: 500ms;
+}
+#lista-carousel img{
+    margin: 5px 18px 5px 18px;
+    max-width: 248px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#lista-carousel img:hover{
+    box-shadow: 0 0 2px;
+    color: #363636;
+}
+#lista-carousel .caption{
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+
+#lista-carousel_2{
+    display: flex;
+    transition: 500ms;
+}
+#lista-carousel_2 img{
+    margin: 5px 18px 5px 18px;
+    max-width: 248px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#lista-carousel_2 img:hover{
+    box-shadow: 0 0 2px;
+    color: #363636;
+}
+#lista-carousel_2 .caption{
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+}
+@media screen and (max-width: 1024px) {
+    #carousel_controls{
+        max-width: 856px;
+    }
+    #carousel_schmitt{
+        display: block;
+        margin: auto;
+        max-width: 856px;
+        overflow: hidden;
+        
+    }
+}
+@media screen and (max-width: 1280px) {
+    #carousel_controls{
+        max-width: 920px;
+    }
+    #carousel_schmitt {
+        max-width: 852px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #carousel_controls{
+        max-width: 634px;
+    }
+    #carousel_schmitt {
+        max-width: 568px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #carousel_controls{
+        max-width: 348px;
+        margin-left: -15px;
+    }
+    #carousel_schmitt {
+        max-width: 272px;
+    }
+    #controls_schmitt img{
+        width: 28px!important;
+        height: 28px!important;
+    }
+}
