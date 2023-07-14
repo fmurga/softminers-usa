@@ -44,9 +44,9 @@
             </svg>
           </div>
           <div class="text-center">
-            <h1 class="mb-3">Thank you for reaching us!</h1>
-            <p class="mb-3">Finally, we will get in touch by email in the next few hours.</p>
-            <a class="btn btn-primary" href="/es/index.php">Back Home</a>
+            <h1 class="mb-3">¡Gracias por contactarnos!</h1>
+            <p class="mb-3">Estaremos entrando en contacto contigo en las próximas horas.</p>
+            <a class="btn btn-primary" href="/es/index.php">Volver a Inicio</a>
           </div>
         </div>
     </section>
