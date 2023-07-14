@@ -10,7 +10,7 @@
   <meta name="description" content="SoftMiners is one of the leading companies in SAP solutions and SAP support and consulting services in Argentina, with international presence in the United States, Chile, and Spain.">
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="/assets/images/favicon/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.png" type="image/png">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
